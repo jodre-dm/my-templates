@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc Cards</title>
+    <link rel="stylesheet" href="bloc-cards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <header>
+                
+    </header>
+    <main>
+        <section class="cards-section">
+            <h3 style="padding-top: 50px;">Fixed Cards</h3>
+            <div class="container">
+                <div class="bloc" id="bloc-card-1">
+                    <img src="https://www.axesindustries.com/images/np/9399FR.JPG" alt="image de la card en arrière plan" class="image-card" id="image-card-1">
+                    <p class="text-card" id="text-card-1">REST API</p>
+                </div>
+                <div class="bloc" id="bloc-card-2">
+                    <img src="https://c1.wallpaperflare.com/preview/701/451/778/photographer-web-design-workspace-art-and-design.jpg" alt="image de la card en arrière plan" class="image-card" id="image-card-2">
+                    <p class="text-card" id="text-card-1">WEBDESIGN</p>
+                </div>
+                <div class="bloc" id="bloc-card-3">
+                    <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/226976252/original/df29bd673906e7652bd221a7204b845060643718/create-an-awesome-website-using-python-django-with-excellent-security.png" alt="image de la card en arrière plan" class="image-card" id="image-card-3">
+                    <p class="text-card" id="text-card-3">FRAMEWORKS</p>
+                </div>
+            </div>
+        </section>
+        <section class="cards-section">
+            <h3 style="padding-top: 50px;">Cards with hover</h3>
+            <div class="container">
+                <div class="bloc-with-hover" id="bloc-card-1">
+                    <img src="https://www.axesindustries.com/images/np/9399FR.JPG" alt="image de la card en arrière plan" class="image-card-with-hover" id="image-card-1">
+                    <p class="text-card-with-hover" id="text-card-1">REST API</p>
+                </div>
+                <div class="bloc-with-hover" id="bloc-card-2">
+                    <img src="https://c1.wallpaperflare.com/preview/701/451/778/photographer-web-design-workspace-art-and-design.jpg" alt="image de la card en arrière plan" class="image-card-with-hover" id="image-card-2">
+                    <p class="text-card-with-hover" id="text-card-1">WEBDESIGN</p>
+                </div>
+                <div class="bloc-with-hover" id="bloc-card-3">
+                    <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/226976252/original/df29bd673906e7652bd221a7204b845060643718/create-an-awesome-website-using-python-django-with-excellent-security.png" alt="image de la card en arrière plan" class="image-card-with-hover" id="image-card-3">
+                    <p class="text-card-with-hover" id="text-card-3">FRAMEWORKS</p>
+                </div>
+            </div>
+        </section>
+        <section class="cards-section">
+            <h3 style="padding-top: 50px;">Animated Cards</h3>
+            <div class="container">
+                <div class="flip-card" onclick="rotateCard(this)">
+                    <div class="flip-card-inner">
+                        <div class="bloc animated-front" id="front-card-1">
+                            <img src="https://www.axesindustries.com/images/np/9399FR.JPG" alt="image de la card en arrière plan" class="image-card" id="image-card-1">
+                            <p class="text-card" id="text-card-1">REST API</p>
+                        </div>
+                        <div class="bloc animated-back" id="back-card-1">
+                            <h3>API Python</h3>
+                            <p>Développement d'une API pour la gestion du blablabla</p>
+                            <a href="https://www.google.com">Voir plus de détails</a>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="flip-card" onclick="rotateCard(this)">
+                    <div class="flip-card-inner">
+                        <div class="bloc animated-front" id="front-card-2">
+                            <img src="https://c1.wallpaperflare.com/preview/701/451/778/photographer-web-design-workspace-art-and-design.jpg" alt="image de la card en arrière plan" class="image-card" id="image-card-2">
+                            <p class="text-card" id="text-card-1">WEBDESIGN</p>
+                        </div>
+                        <div class="bloc animated-back" id="back-card-2">
+                            <h3>WEBDESIGN</h3>
+                            <p>Conception et Développement de pages web dynamiques pour la gestion du blablabla</p>
+                            <a href="https://www.google.com">Voir plus de détails</a>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="flip-card" onclick="rotateCard(this)">
+                    <div class="flip-card-inner">
+                        <div class="bloc animated-front" id="front-card-3">
+                            <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/226976252/original/df29bd673906e7652bd221a7204b845060643718/create-an-awesome-website-using-python-django-with-excellent-security.png" alt="image de la card en arrière plan" class="image-card" id="image-card-3">
+                            <p class="text-card" id="text-card-1">FRAMEWORKS</p>
+                        </div>
+                        <div class="bloc animated-back" id="back-card-3">
+                            <h3>Frameworks</h3>
+                            <p>Développement d'applications à partir de frameworks pour la gestion du blablabla</p>
+                            <a href="https://www.google.com">Voir plus de détails</a>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <section class="css-description">
+            <div class="css-balise-description">
+                <h3>header</h3>
+                <p>{<br />
+                    background-color: #182120;<br />
+                    width: 100%;<br />
+                    position: fixed; <br />
+                    top: 0;<br />
+                        z-index: 9999;<br />
+                    }
+                </p>
+            </div>
+            <div class="css-balise-description">
+                <h3>navbar</h3>
+                <p>{<br />
+                    display: flex;<br />
+                    flex-direction: row;<br />
+                    justify-content: space-between;<br />
+                    height: 50px;<br />
+                }
+                </p>
+            </div>
+            <div class="css-balise-description">
+                <h3>container</h3>
+                <p>{<br />
+                    display: flex;<br />
+                    flex-direction: row;<br />
+                    flex-wrap: wrap;<br />
+                    justify-content: space-around;<br />
+                    padding-left: 25px;<br />
+                    padding-right: 25px;<br />
+                    margin: 30px;<br />
+                    border: 1px dotted black;<br />
+                    border-radius: 3px;
+                }</p>
+            </div>
+        </section>
+    </main>
+    <script>
+    function rotateCard(card) {
+        card.classList.toggle("flipped");
+    }
+    </script>
+</body>
+</html>
