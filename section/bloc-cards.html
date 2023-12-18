@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc Cards Template</title>
+    <link rel="stylesheet" href="bloc-cards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">JDM</div>
+            <div class="menu-links">
+                <a href="">Accueil</a>
+                <a href="">Qui suis-je ?</a>
+                <a href="">Mes réalisations</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="presentation">
+            <div class="presentation-text">
+                <h1>Jodré D. MAYOUNGA</h1>
+                <h2><span id="python">Python </span><span>Web </span>Developper</h2>
+                <p class="citation">« Que l'on me donne six heures pour couper un arbre, j'en passerai quatre à préparer ma hache. » <br /> 
+                    - Abraham Lincoln -</p>
+            </div>
+            <div class="div-photo">
+                <img src="IMG_9823.jpg" alt="avatar de Jodré">
+            </div>
+        </div>
+        <section class="section-1">
+            <h3 style="padding-top: 50px;">Fixed Cards</h3>
+            <div class="container">
+                <div class="bloc" id="bloc-1">
+                    <p><em>Bloc:</em><br />
+                        display: flex;<br />
+                        margin: 1em;<br />
+                        min-width: 200px;<br />
+                        max-width: 200px;<br />
+                        min-height: 250px;<br />
+                        text-align: center;<br />
+                        align-items: center;<br />
+                        justify-content: center;<br />
+                        overflow:visible;<br />
+                        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);<br />
+                        border-radius: 3px;
+                    </p>
+                </div>
+                <div class="bloc" id="bloc-2">
+                    <p>Bloc 2</p>
+                </div>
+                <div class="bloc" id="bloc-3">Bloc 3</div>
+            </div>
+        </section>
+        <h3 style="padding-top: 50px;">Animated Cards</h3>
+        <div class="container">
+            <div class="bloc" id="bloc-1">
+                <p><em>Bloc:</em><br />
+                    display: flex;<br />
+                    margin: 1em;<br />
+                    min-width: 200px;<br />
+                    max-width: 200px;<br />
+                    min-height: 250px;<br />
+                    text-align: center;<br />
+                    align-items: center;<br />
+                    justify-content: center;<br />
+                    overflow:visible;<br />
+                    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);<br />
+                    border-radius: 3px;
+                </p>
+            </div>
+            <div class="bloc" id="bloc-2">
+                <p>Bloc 2</p>
+            </div>
+            <div class="bloc" id="bloc-3">Bloc 3</div>
+        </div>
+        <div class="css-description">
+            <div class="css-balise-description">
+                <h3>header</h3>
+                <p>{<br />
+                    background-color: #182120;<br />
+                    width: 100%;<br />
+                    position: fixed; <br />
+                    top: 0;<br />
+                        z-index: 9999;<br />
+                    }
+                </p>
+            </div>
+            <div class="css-balise-description">
+                <h3>navbar</h3>
+                <p>{<br />
+                    display: flex;<br />
+                    flex-direction: row;<br />
+                    justify-content: space-between;<br />
+                    height: 50px;<br />
+                }
+                </p>
+            </div>
+            <div class="css-balise-description">
+                <h3>container</h3>
+                <p>{<br />
+                    display: flex;<br />
+                    flex-direction: row;<br />
+                    flex-wrap: wrap;<br />
+                    justify-content: space-around;<br />
+                    padding-left: 25px;<br />
+                    padding-right: 25px;<br />
+                    margin: 30px;<br />
+                    border: 1px dotted black;<br />
+                    border-radius: 3px;
+                }</p>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>

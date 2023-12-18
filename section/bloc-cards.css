@@ -1,0 +1,219 @@
+:root{
+    --transparent-background: rgba(0, 0, 0, 0.5);
+    --light-green : #7dba8a;
+    --blue-python : #7f97c7;
+    --drak-green : rgb(0, 100, 0)
+}
+
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,125,138,1) 69%);
+    background-attachment: fixed;
+    background-size: 100%;
+    /* background-image: url('https://images.pling.com/img/00/00/33/91/33/1277831/36944ea6c7b69169d86a56b8d639b3795eac.jpg'); */
+    background-image: url('');
+    background-image: url('');
+    background-image: url('');
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2020/12/17/minimalist-wallpaper.jpg');
+    /* background-image: url('https://free4kwallpapers.com/uploads/originals/2020/10/07/desert-minimalism-wallpaper.jpg'); */
+    
+}
+
+header {
+    background-color: #182120;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    z-index: 9999;
+    margin-left: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--light-green)
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    padding-left: 10px;
+    font-size: 2em;
+    font-family: 'Kalnia', serif;
+
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 1px;
+    &:hover {
+        transition: 0.2s;
+        background-color: var(--blue-python);
+        /* color: black; */
+    }
+}
+
+
+main {
+    margin-top: 50px;
+    /* margin-right: 12.5%;
+    margin-left: 12.5%; */
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--transparent-background);
+    padding: 50px 20px 10px 20px;
+    backdrop-filter: blur(2px);
+}
+
+.presentation-text{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+
+.presentation-text p,
+h2
+{
+    padding: 10px;
+}
+
+h2 {
+    color:#7dba8a;
+    font-size: 2.5em;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+#python {
+    color: var(--blue-python);
+}
+
+.citation {
+    /* font-style: italic; */
+    font-size: 1.8em;
+    /* font-family: 'Homemade Apple', cursive; */
+    font-family: 'Cedarville Cursive', cursive;max-width: 750px;
+    line-height: 1.3em;
+    margin-top: 5vh;
+}
+
+.div-photo {
+    justify-content: center;
+    padding: 1em;
+}
+
+img{
+    width: 300px;
+    border-radius: 49%;
+    margin: 5px;
+    border: 3px solid rgb(202, 196, 196);
+    box-shadow: 0 0 50px 10px grey;
+    
+}
+
+
+
+h1{
+    font-family: 'Kalnia', serif;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+section {
+    margin-left: 12.5%; 
+    margin-right: 12.5%; 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 30px;
+    border: 1px dotted rgb(128, 128, 128);
+    border-radius: 3px;
+}
+
+.bloc{
+    display: flex;
+    margin: 1em;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow:visible;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+em {
+    font-size:larger;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+p {
+    width: 90%;
+    /* text-align: center; */
+}
+
+#bloc-1 {
+    /* background-color: blue; */
+    background-color: var(--light-green);
+}
+
+#bloc-2 {
+    background-color: green;
+}
+
+#bloc-3 {
+    /* background-color: orange; */
+    background-color: #194f24;
+    color: #fff;
+}
+
+.css-description{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:left;
+    background-color: var(--transparent-background);
+}
+
+
+.css-balise-description {
+    margin: 10px;
+}
