@@ -1,0 +1,49 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+    color: white;
+}
+
+.about {
+    height: 300vh;
+    display: flex;
+    border: 1px solid black;
+}
+
+.about-title {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    /* border: 1px solid black; */
+
+}
+
+
+.about-pages {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.about-pages div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+footer {
+    background: blue;
+}
