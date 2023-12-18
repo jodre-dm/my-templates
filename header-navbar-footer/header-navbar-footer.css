@@ -1,0 +1,112 @@
+:root{
+    --transparent-background: rgba(0, 0, 0, 0.5);
+    --light-green : #7dba8a;
+    --blue-python : #7f97c7;
+    --drak-green : rgb(0, 100, 0)
+}
+
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(112,125,138,1) 69%);
+    background-attachment: fixed;
+    background-size: 100%;
+    /* background-image: url('https://images.pling.com/img/00/00/33/91/33/1277831/36944ea6c7b69169d86a56b8d639b3795eac.jpg'); */
+    /* background-image: url('https://free4kwallpapers.com/uploads/originals/2020/12/17/minimalist-wallpaper.jpg'); */
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2020/10/07/desert-minimalism-wallpaper.jpg');
+    
+    
+}
+
+header {
+    background-color: #182120;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    z-index: 9999;
+    margin-left: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--light-green)
+}
+
+.logo,
+.logo-bottom {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    padding-left: 10px;
+    font-size: 2em;
+    font-family: 'Kalnia', serif;
+
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 1px;
+    &:hover {
+        transition: 0.2s;
+        background-color: var(--blue-python);
+        /* color: black; */
+    }
+}
+
+
+main {
+    margin-top: 50px;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 215px;
+}
+
+.logo-bottom {
+    padding-left: 10px;
+    font-size: 1.5em;    
+    color: black;
+}
+.footer-links a {
+    color: black;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
