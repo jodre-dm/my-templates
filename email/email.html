@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Moderne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nabla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background-color: #ecf0f5; Bleu ciel */
+            background-image: url('https://wallpapers.com/images/high/minimalist-pattern-1080-x-1920-wallpaper-2fn1g83ypatqq0qr.webp'); /* Bleu ciel */
+        }
+        .banner-container {
+            position: relative;
+            text-align: center;
+        }
+
+        .banner {
+          /* background-image: url('https://i.pinimg.com/originals/26/ae/12/26ae1241ca65ba8e8ff4a4d442c92566.png'); */
+            width: 100%;
+            height: auto;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .banner-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Titan One', sans-serif;
+            color: rgb(233, 177, 56);
+            font-size: 3em;
+            width: 100%;
+        }
+        
+        .email-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff; /* Fond blanc */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+            
+        
+        h1 {
+            color: #3498db; /* Bleu */
+            text-align: center;
+            
+        }
+
+        p {
+            color: #555;
+            text-align: justify;
+            font-size: 1.4em;
+            line-height: 2em;
+        }
+        
+        .cta {
+            /* background: linear-gradient(90deg, rgba(117,29,224,1) 64%, rgba(226,88,209,1) 100%); */
+            padding: 20px;
+            background: rgb(98, 29, 226);
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            width: fit-content;
+            margin: auto;
+            font-size: 1.2em;
+        }
+        
+        .cta a {
+            color: rgb(238, 206, 27);
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .social-icons li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .copyright {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .copyright p {
+            text-align: center;
+            font-size: .9rem;
+            line-height: 1.3rem;
+        }
+
+        @media screen and (max-width: 360px){
+            .banner-title {
+                font-size: 1.75rem;
+            }
+
+            .email-container {
+                margin: 40px 15px;                
+            }
+
+            p {
+                font-size: .8em;
+            }
+
+            h1 {
+                font-size: 1.3em;
+            }
+
+            .cta {
+                font-size: .9em;
+                padding: 10px;
+            }
+
+            .social-icons img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .copyright p {
+                text-align: center;
+                font-size: .7rem;
+                line-height: 1rem;
+            }
+        }
+
+        @media screen and (min-width: 360px) and (max-width: 590px) {
+            .banner-title {
+                font-size: 2rem;
+            }
+            
+            .email-container {
+                margin: 50px 25px;                
+            }
+
+            p {
+                font-size: .9em;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .cta {
+                font-size: 1em;
+                padding: 15px;
+            }
+
+            .social-icons img {
+                width: 30px;
+                height: 30px;
+            }
+
+            .copyright p {
+                text-align: center;
+                font-size: .7rem;
+                line-height: 1rem;
+            }
+        }        
+
+        @media screen and (min-width: 590px) and (max-width: 690px) {
+            .banner-title {
+                font-size: 3rem;
+            }
+            
+            .email-container {
+                margin: 60px 30px;                
+            }
+            p {
+                font-size: 1em;
+            }
+            .copyright p {
+                text-align: center;
+                font-size: .8rem;
+                line-height: 1rem;
+            }
+        } 
+
+
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="banner-container">
+            <img src="https://i.pinimg.com/originals/26/ae/12/26ae1241ca65ba8e8ff4a4d442c92566.png" alt="" class="banner">
+            <div class="banner-title">Black Friday</div>
+        </div>
+        <h1>Les offres de la semaine 🎉</h1>
+        <p>Salut à toi client fidèle 👋,</br></br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere quos dolorem minima.
+            Obcaecati, eum ipsam! Ipsam nobis numquam id alias aliquam necessitatibus maxime fugiat dolore reiciendis.
+           Voluptas porro accusamus mollitia, necessitatibus minus sunt praesentium repellat sint eligendi quasi 
+           perferendis ducimus odio repudiandae ipsum! Earum sapiente nihil aut repellat dolorem voluptatibus harum 
+           voluptatum illo ipsum repellendus quis perferendis accusantium quos enim perspiciatis animi omnis odit optio, 
+           magni praesentium! Dicta voluptates repellat nobis eveniet ea numquam est ad laborum dolorem soluta reprehenderit 
+           eum veniam, cumque officia facilis odio modi nemo veritatis neque minima ipsa debitis facere. 
+        </br></br>
+        <div class="cta"><a href="https://www.dealabs.com">Je découvre !</a></div></br></br>
+           <p>Fugit, laborum quibusdam 
+           beatae, consequatur molestiae, rerum adipisci earum esse assumenda eos dolorum. Officiis aut doloremque, est quasi corrupti 
+           neque aliquam? Quidem, tempore alias illum itaque fuga fugiat, qui reiciendis ipsa similique at consequuntur? Dolor eveniet 
+           excepturi quis ipsa repellat assumenda! Consectetur totam ratione, deserunt ab dignissimos aperiam nemo eum? Quod a sequi 
+           aliquam illo culpa. Vel autem corrupti qui dolorum consequuntur quidem enim doloribus atque dolores.</br></br>
+           A doloremque soluta eveniet? Magnam id reprehenderit hic repellendus esse sunt dolorem placeat odit, eos velit, 
+           iusto maxime! Sunt mollitia laborum molestiae, dolore similique minima reiciendis magnam ex explicabo fugiat ut iste,
+            eaque officiis impedit! Tempora, id! Quidem, rerum.</p>
+            
+          <p>A bientôt ! 😊</br>
+          L'Equipe de nuit</p>
+        <ul class="social-icons">
+            <li><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png" alt="Facebook"></li>
+            <li><img src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Twitter5_svg-1024.png" alt="Twitter"></li>
+            <li><img src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Linkedin2_svg-1024.png" alt="LinkedIn"></li>
+            <li><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="Github"></li>
+        </ul>
+        <div class="copyright"><p>Copyright © Jodré DM, Tous droits réservés.</br>
+            Vous recevez ce mail car vous êtes abonné. Cliquez <a class="unsubscribe" href="https://youtu.be/u0m2d7wtiNk?si=JlG6i1SJ-u4lQvkV">ici </a>pour ne plus rien recevoir</p>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
